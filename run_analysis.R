@@ -76,4 +76,4 @@ colnames(activity_all_data) <- column_labels
 
 activity_means <- activity_all_data %>% group_by(subject, activity) %>% summarise_all(funs(mean))
 
-write.csv(activity_means, "tidy.csv", row.names = FALSE)
+write.table(activity_means, "tidy.txt", row.names = FALSE)
