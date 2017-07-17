@@ -1,6 +1,6 @@
 # Code book for Coursera Getting and Cleaning Data course project
 
-The data set that this code book belongs to is located in the tidy_data.csv file in this repository.
+The data set that this code book belongs to is located in the tidy.txt file in this repository.
 
 See the README.md file of this repository for background information on this data set.
 
@@ -8,7 +8,7 @@ The structure of the data set is described in the Data section, its variables ar
 
 # Data
 
-The tidy_data.csv data file is a csv file, containing comma-separated values.
+The tidy.txt data file is a txt file, containing comma-separated values.
 
 The first row contains the names of the variables, which are described in the Variables section, and the following rows contain the values of these variables.
 
